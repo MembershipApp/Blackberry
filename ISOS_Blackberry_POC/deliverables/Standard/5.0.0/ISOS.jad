@@ -1,0 +1,73 @@
+RIM-COD-SHA1-9: 79 1f 10 77 50 c8 36 66 05 c0 84 73 e0 82 30 b5 47 90 5c 99
+RIM-COD-SHA1-8: 6b ed 29 85 5b 69 a2 7a e6 7d cc 31 2d e4 ba 25 4d 24 f1 5b
+RIM-COD-SHA1-7: c4 bc 56 7b 34 e1 32 7a 85 23 5e 36 a2 2d de be 8a f7 48 a2
+RIM-COD-SHA1-6: 76 97 88 ea ae a1 71 f8 f3 7e a3 ee a6 a4 6d 2f 99 70 68 38
+RIM-COD-SHA1-5: d3 a9 9f 59 1a e8 47 d3 15 25 f3 8f 8b 26 44 4c 69 e7 84 f9
+RIM-COD-SHA1-4: 4a 9b f0 a6 11 6b fa e3 10 f0 15 8d db d2 65 78 1c 0d 5f d1
+RIM-COD-SHA1-3: 95 bf 40 0c 0c 35 13 15 e0 c8 64 ba da 7d 8f 07 ca 03 99 4b
+RIM-COD-SHA1-2: 69 b0 c5 a8 a7 38 ff 5a ca 8d 8e da 29 5e b4 26 e4 d5 47 b1
+RIM-COD-SHA1-1: 3c d7 8e b7 59 b0 fc 97 88 82 1d d0 34 01 db 06 0d 37 19 e8
+RIM-COD-URL-19: ISOS-19.cod
+RIM-COD-URL-18: ISOS-18.cod
+RIM-COD-URL-17: ISOS-17.cod
+RIM-COD-URL-16: ISOS-16.cod
+RIM-COD-URL-15: ISOS-15.cod
+RIM-COD-URL-14: ISOS-14.cod
+RIM-COD-URL-13: ISOS-13.cod
+RIM-COD-URL-12: ISOS-12.cod
+RIM-COD-Size: 61520
+RIM-COD-URL-11: ISOS-11.cod
+RIM-COD-URL-10: ISOS-10.cod
+MIDlet-Vendor: BlackBerry Developer
+Manifest-Version: 1.0
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-19: 54400
+RIM-COD-Size-18: 49932
+RIM-COD-Size-17: 50264
+RIM-COD-Size-16: 45836
+RIM-COD-Size-15: 37996
+RIM-COD-Size-14: 50036
+RIM-COD-Size-13: 58096
+RIM-COD-Size-12: 56464
+RIM-COD-Size-11: 56456
+RIM-COD-Size-10: 49984
+MIDlet-Version: 1.0.0
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-URL: ISOS.cod
+RIM-COD-Creation-Time: 1354857737
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: ISOS_New.jar
+RIM-COD-SHA1-19: 09 65 87 ec 3c c6 54 1c 11 bf a4 d9 e9 f2 9b ed f6 67 60 1e
+RIM-COD-SHA1-18: 6a cb 14 42 3b a8 32 3c b1 d2 03 70 73 ce f7 7e c6 0d d8 63
+RIM-COD-SHA1-17: ad 2e 04 22 ff 2a ef 50 1d a5 bb 1a 53 ce cf d1 69 5d 58 52
+RIM-COD-SHA1-16: c8 c2 82 81 0c f0 9f cc 49 60 19 e8 e3 65 a2 1c a0 ee 15 1c
+RIM-COD-SHA1-15: 4e 44 18 40 4d 92 87 1a 7c 1d 4f 28 36 77 46 c2 6c f4 16 10
+RIM-COD-SHA1-14: ae 20 3f 75 27 e4 dc 55 8e 0c ba 30 a1 a1 43 6d bd 9d 75 da
+RIM-COD-SHA1-13: ae 5a 8d d0 12 e1 9d f4 5f 84 9c c8 7b 55 c2 4a 0a 36 98 b3
+RIM-COD-SHA1-12: 35 1e a7 50 7e 9c e2 7e 21 1e 8c 77 30 2d 42 78 a2 a4 d0 ae
+RIM-COD-Size-9: 49984
+RIM-COD-SHA1-11: fe 1b 7a d2 29 2a a4 56 c8 79 c3 b0 c5 a2 a0 e8 fa c7 78 5e
+RIM-COD-Size-8: 57704
+RIM-COD-SHA1-10: 9d ca 28 5e e0 dd 3f 56 4f e8 8e b9 9a ba ba 67 21 40 7b b2
+RIM-COD-Size-7: 55152
+RIM-COD-Size-6: 50268
+RIM-COD-Size-5: 53684
+RIM-COD-Size-4: 50268
+RIM-COD-Size-3: 57124
+RIM-COD-Size-2: 50364
+RIM-COD-Size-1: 39404
+MIDlet-1: ISOS ,Icon.png,
+MIDlet-Name: ISOS_New
+RIM-COD-SHA1: 05 28 9a 36 77 68 91 9f 63 9c 77 f5 15 72 7f ee a9 50 0b e2
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_browser_field2_api,net_rim_xml_org,net_rim_os,net_rim_bbapi_browser,net_rim_locationapi
+MIDlet-Jar-Size: 945660
+RIM-COD-URL-9: ISOS-9.cod
+RIM-COD-URL-8: ISOS-8.cod
+RIM-COD-URL-7: ISOS-7.cod
+RIM-COD-URL-6: ISOS-6.cod
+RIM-COD-URL-5: ISOS-5.cod
+RIM-COD-URL-4: ISOS-4.cod
+RIM-COD-URL-3: ISOS-3.cod
+RIM-COD-URL-2: ISOS-2.cod
+RIM-COD-URL-1: ISOS-1.cod
+RIM-COD-Module-Name: ISOS

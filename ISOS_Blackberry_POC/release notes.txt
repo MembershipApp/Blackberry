@@ -1,0 +1,8 @@
+Release Notes:
+
+This Blackberry application uses preprocessor directives to build for 5.0 OS as well as 6.0 an d above.
+
+1. To build for 5.0 OS, check  preprocessor directive ISOS_SDK5 and uncheck ISOS_SDK6 in the build tab of applicaiton discriptor.
+
+2. To build for 6.0 OS and above, check ISOS_SDK6 and uncheck  ISOS_SDK5 in the applicaiton discriptors build tab.
+

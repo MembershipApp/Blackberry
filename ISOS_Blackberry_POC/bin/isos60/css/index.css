@@ -1,0 +1,894 @@
+
+
+
+
+
+	body
+	{
+       
+		font-family:Tahoma;
+        
+        padding:0px;
+        margin:0px;
+        min-height:480px;
+        max-height:800px;
+		background-color:#f5f5f5;
+        background: -moz-radial-gradient(center, ellipse cover, rgba(206,206,206,1) 10%, rgba(214,214,214,1) 43%, rgba(226,226,226,1) 60%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(10%,rgba(206,206,206,1)), color-stop(43%,rgba(214,214,214,1)), color-stop(60%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(206,206,206,1) 10%,rgba(214,214,214,1) 43%,rgba(226,226,226,1) 60%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(206,206,206,1) 10%,rgba(214,214,214,1) 43%,rgba(226,226,226,1) 60%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(206,206,206,1) 10%,rgba(214,214,214,1) 43%,rgba(226,226,226,1) 60%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(206,206,206,1) 10%,rgba(214,214,214,1) 43%,rgba(226,226,226,1) 60%); /* W3C */
+	overflow:hidden;
+    }
+	
+	#locationHeader {
+		width: 100%;
+	}
+	
+	#LoginHeader
+	{
+		background-color:#2989d8;
+		background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0	%,#1e5799), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C */
+        position:relative;
+        top:0px;
+        left:0px;
+		height:40px;
+      		
+	}
+	
+	/*#LoginHeader label
+	{
+		color:white;
+		float:left;
+		border:white 1px solid;
+		font-size:14px;
+		margin:10px 0 10px 5px;
+	}
+    
+    #LoginHeader label:nth-of-type(2)
+    {
+        background-color:white;
+        color:#3f93e9;
+        font-size:14px;
+        margin:10px 0 0 0;
+        
+    }
+	
+	#LoginHeader label:last-child
+	{
+		color:white;
+		float:right;
+		font-size:18px;
+		margin:10px 10px 10px 20px;
+        border:0px;
+        font-style:italic;
+	}*/
+	
+	#LoginHeader #Controltxt
+	{
+		
+		color:white;
+		float:left;
+		border:white 1px solid;
+		font-size:14px;
+		margin:10px 0 10px 5px
+		
+		
+	}
+    
+    #LoginHeader #Riskstxt
+    {
+		background-color:white;
+        color:#3f93e9;
+        font-size:14px;
+        margin:10px 0 0 0;
+		
+        float:left;
+		border:white 1px solid;
+       
+        
+    }
+	#LoginHeader #internationaltxt
+	{
+		font-size:10px;
+		font-style:italic;
+		float:right;
+		color:white;
+		margin:0px 10px 3px 20px;
+        border:0px;
+	}
+	#LoginHeader #SOStxt
+	{
+		color:white;
+		float:right;
+		font-size:18px;
+		margin:0px 17px 0 0;
+        border:0px;
+        font-style:italic;
+	}
+	
+	 #videotour
+     {
+         text-align:center;
+		padding:5px 20px;
+     }
+	
+	#videotour video
+	{
+		width:250px;
+		height:150px;
+        
+		
+		border:#3f93e9 1px solid;
+	}
+    
+    #videotour label
+    {
+        margin-top:10px;
+    }
+	
+	input[type=text]
+	{
+		border:#3f93e9 1px solid;
+		padding:15px;
+        width:250px;
+		 margin:5px;
+		
+	}
+	
+	#LoginContent
+	{
+		padding:5px;
+       
+      	
+        border:#3f93e9 1px solid;
+        margin:2px 7px;
+	}
+	
+	#LoginContent #rememberme
+	{
+		margin:2px 0px 10px 10px;
+               
+            
+	}
+
+	
+	
+	#LoginContent button
+	{
+		background: rgb(87,169,214); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(87,169,214,1) 0%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(87,169,214,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* W3C */
+		border-radius:5px;
+		border:0px;
+		color:white;
+		padding:10px 40px;
+		font-size:15px;
+        text-decoration: none;
+       
+		margin:7px 10px;
+	}
+    
+    
+
+    #LoginContent #loginbtn
+    {
+        margin-left:35px;
+    }
+    
+    
+    #LoginContent label
+    {
+        font-size:12px;
+    }
+
+   
+    
+    
+    /* Dashboard page styles */
+    
+    #changelocation
+    {
+        height:30px;
+        padding:0;
+        margin:0;
+        width:100%;
+    }
+
+      
+    #changelocation #smalltext
+    {
+        font-size:8px;
+        margin:0;
+        padding:0;
+    }
+    
+ 
+   
+     #changelocation  #CountryName
+    {
+        font-size:14px;
+        padding:0;
+        margin:0;
+        font-weight:bold;
+    }
+    #changelocation td:first-child
+    {
+        width:5%;
+    }
+    #changelocation 
+    {
+        width:100%;
+		 background:#cccccc;
+          background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    }
+     #changelocation td:nth-of-type(3)
+    {
+        width:20%;
+      
+        
+    }
+    
+    #changelocation td:last-child
+    {
+        width:10%;
+      
+        
+    }
+    
+    #dashboarditems
+    {
+    	text-align:center;
+    	width:100%;
+    	height:350px;
+    	margin:0px auto;
+    	background:#E8E8E8;
+    }
+    #dashboarditems ul
+    {
+        display:inline;
+    	padding: 0px; 
+    	list-style-type: none; 
+    	white-space: nowrap;    
+    	width:100%;
+		margin:0;
+		
+    }
+	 img
+	{
+		border:0;
+	}
+    
+    #dashboarditems li
+    {     
+        float:left;
+        margin:0;
+        padding:20px 0;      
+        width:49%;
+        height:120px;
+        border:1px solid #ffffff;
+		 background:#E8E8E8;
+        background: -moz-linear-gradient(45deg, rgba(232,232,232,1) 0%, rgba(232,232,232,1) 12%, rgba(232,232,232,1) 48%, rgba(188,188,188,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(232,232,232,1)), color-stop(12%,rgba(232,232,232,1)), color-stop(48%,rgba(232,232,232,1)), color-stop(100%,rgba(188,188,188,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(45deg, rgba(232,232,232,1) 0%,rgba(232,232,232,1) 12%,rgba(232,232,232,1) 48%,rgba(188,188,188,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(45deg, rgba(232,232,232,1) 0%,rgba(232,232,232,1) 12%,rgba(232,232,232,1) 48%,rgba(188,188,188,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(45deg, rgba(232,232,232,1) 0%,rgba(232,232,232,1) 12%,rgba(232,232,232,1) 48%,rgba(188,188,188,1) 100%); /* IE10+ */
+        background: linear-gradient(45deg, rgba(232,232,232,1) 0%,rgba(232,232,232,1) 12%,rgba(232,232,232,1) 48%,rgba(188,188,188,1) 100%); /* W3C */
+
+    }
+    
+    #dashboarditems li a
+    {
+        text-decoration:none;
+        color:black;
+        cursor:pointer; 
+    }
+
+	
+	#AlertsCheckin, #GuidesClinic
+	{
+		float:left;
+	}
+  
+  
+    
+
+/* ********** Bottom Menu Style *************** */
+
+
+#bottommenu ul
+{
+    position : fixed;
+   	 bottom: 0px; 	
+     margin:auto;
+     padding:3px 0 0 0;
+	 list-style-type:none;
+	 clear:both;
+	 width:100%;
+	 height:70px;
+	 background-color:black;
+
+    
+}
+
+
+#bottommenu ul li
+{
+   
+   width:20%;
+	display:inline;
+	float:left;
+	
+	text-align:center;
+    
+}
+
+
+#bottommenu ul a
+{
+	
+    text-decoration:none;
+    color:white;
+    font-size:12px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------- Checkin page styles ------------------------------ */
+#CheckinHeader
+{
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C */
+		background-color:#2989d8;
+		height:40px;
+        text-align: center;
+        padding-top:4px;
+        vertical-align:middle;
+        font-family:Helvetica,Arial,sans-serif;
+        font-weight:bold;
+}
+
+
+
+#CheckinHeader .backbutton { 
+    position: relative; 
+    margin: 2px 0 0 12px; 
+    z-index:10;
+    height: 30px; 
+    width: 52px; 
+    border: 0px solid rgba(0,0,0, 0.4);  
+   background-image:url('mobile_back_button.png');
+    float:left;
+}
+
+#CheckinHeader .backbutton div {
+    position: absolute; 
+    z-index: 1; 
+    top: 4px; 
+    left: -7px; 
+}
+
+
+#CheckinHeader .backbutton span {
+    display: block; 
+    width: 15px; 
+    height: 16px; 
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(125,185,232,1) 0%, rgba(41,137,216,1) 49%, rgba(30,87,153,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,185,232,1)), color-stop(49%,rgba(41,137,216,1)), color-stop(100%,rgba(30,87,153,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 49%,rgba(30,87,153,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 49%,rgba(30,87,153,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 49%,rgba(30,87,153,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 49%,rgba(30,87,153,1) 100%); /* W3C */
+    border: 1px solid rgba(0,0,0, 0.4); 
+    border-right: 0; 
+    border-top: 0;
+} 
+
+
+#CheckinHeader .backbutton p {
+    position: absolute; 
+    z-index: 2; 
+    top: 5px; 
+    left: 5px; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 12px; 
+    font-weight: bold; 
+    color: #fff; 
+    text-shadow: 0 -1px 0 rgba(0,0,0, 0.4);
+}
+
+#CheckinHeader span
+{
+    color:white;
+    font-size:22px;
+    height:40px;
+    padding:0;
+    margin-left:-20px;
+}
+
+
+
+#CheckinHeader .rectbackbtn
+{
+    top: 8px; 
+    left: 7px; 
+	background-color:#4a8df8;
+	padding:5px 10px;
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+	padding:5px 10px;
+	border:1px solid white;
+	
+}
+
+
+
+#LocationMap
+{
+    border:1px solid #CCC;
+    height:200px;
+	width:99%;
+}
+
+#CheckinLocationDetails
+{
+    clear:both;
+}
+
+
+#CheckinLocationDetails div
+{
+    float:left;  
+    
+
+}
+
+#CheckinLocationDetails h1,h2
+{
+    margin:0;
+    padding:0;
+}
+
+#CheckinLocationDetails h1
+{
+    font-size:20px;
+    
+}
+#CheckinLocationDetails h2
+{
+    font-size:12px;
+    
+}
+
+
+#CheckinLocationDetails img
+{
+    float:right;
+    
+}
+
+
+
+#btnCheckIn {
+
+	margin: 100px 0 20px 60px;
+	width: 120px;
+	background: rgb(87,169,214); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(87,169,214,1) 0%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(87,169,214,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(87,169,214,1) 0%,rgba(6,109,171,1) 100%); /* W3C */
+	border-radius: 5px;
+	border: 0px;
+	padding: 10px 40px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	text-align:center;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+#CheckinSuccessful {
+	width:100%;
+	height: 140px;
+	background: rgb(119,119,119); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(119,119,119,1) 0%, rgba(209,209,209,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(119,119,119,1)), color-stop(100%,rgba(209,209,209,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(119,119,119,1) 0%,rgba(209,209,209,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(119,119,119,1) 0%,rgba(209,209,209,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(119,119,119,1) 0%,rgba(209,209,209,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(119,119,119,1) 0%,rgba(209,209,209,1) 100%); /* W3C */
+	margin-top: 15px;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top:30%;
+}
+
+
+#CheckinSuccessful img
+{
+    float:left;
+    padding:5px;
+}
+
+#CheckinSuccessful p
+{
+    width:300px;
+    color:white;
+    position:relative;
+    left:10px;
+    margin:0;
+    padding-top:10px;
+    font-size:15px;
+
+}
+
+
+#CheckinSuccessful a {
+	float: left;
+	background: rgb(186,186,186); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(186,186,186,1) 1%, rgba(119,119,119,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(186,186,186,1)), color-stop(100%,rgba(119,119,119,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(119,119,119,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(119,119,119,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(186,186,186,1) 1%,rgba(119,119,119,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(186,186,186,1) 1%,rgba(119,119,119,1) 100%); /* W3C */
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	padding: 10px 55px;
+	font-size: 20px;
+	text-align:center;
+	text-decoration: none;
+	margin: 10px 20px 10px 60px;
+	cursor:pointer; 
+}
+
+
+
+/******************************************** Alerts Page Styles *********************************************************************/
+
+.AlertsSubheader
+{
+   		background:rgb(204,204,204);
+        background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+        position:relative;
+        top:-15px;
+        left:0px;
+        
+        padding:0;
+        margin:0;
+        height:50px;
+
+}
+
+.AlertsSubheader img
+{
+    float:left;
+    padding:5px 10px;
+    
+
+}
+
+.AlertsSubheader h3
+{
+    padding-top:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+#AlertsList
+{
+	 list-style-type:none;
+	
+	width:100%;
+	
+	
+    
+}
+
+#AlertsList li
+{   
+  padding-bottom:5px;
+	border-bottom:1px groove #CCC;
+	
+    
+}
+
+#AlertsList li img
+{
+	float:left;
+	margin:5px;
+	
+	
+}
+#AlertsList li h3
+{
+	font-size: 16px;
+font-weight: bold;
+display: block;
+margin: .6em 0;
+overflow: hidden;
+color:black;
+padding:0 5px;
+}
+
+.dateVal
+{
+	font-size: 12px;
+font-weight: normal;
+display: block;
+margin: 10px 0 0 40px;
+
+color:red;
+padding:10px 0px 0 40px;
+
+}
+
+
+.ui-li-heading, .ui-li-desc 
+{
+    position: relative;
+    left: -45px;
+    top:-13px;
+}
+
+
+.ui-li-thumb
+{
+    padding:5px 10px;
+}
+
+
+.ui-btn-text {
+    height:60px;
+    margin-top:5px;
+
+}
+
+#alertWrapper{
+    position:absolute;
+    overflow: hidden;
+}
+
+#AlertsList
+{
+ margin:auto;
+    padding:3px 0 0 0;
+	 list-style-type:none;
+	
+	width:100%;
+	
+	
+    
+}
+
+#AlertsList li
+{   
+  padding:5px;
+	border-bottom:1px groove #CCC;
+	
+    
+}
+
+
+#AlertsList a
+{
+	
+    text-decoration:none;
+   
+}
+#AlertsList li img
+{
+	float:left;
+	margin:5px;
+	
+	
+}
+#AlertsList li h3
+{
+	font-size: 16px;
+font-weight: bold;
+display: block;
+margin: .6em 0;
+overflow: hidden;
+color:black;
+padding:0 5px;
+}
+
+#AlertsList li p
+{
+	font-size: 12px;
+font-weight: normal;
+display: block;
+margin: 5px 0 0 0px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+color:black;
+padding:0 5px;
+
+}
+
+
+/*****************************************************************
+ * Target specific device below style using @media query
+ *****************************************************************/
+
+/* All devices */
+#videotour video
+{
+			width:100%;
+			height:150px;
+			margin:10px 0 0px 0;
+			border: none;
+}
+	
+#LoginContent button {
+			display: block;
+			float: left;
+			margin-top: 25px;
+			width: 43%;	
+			border-raduis: 8px;
+			-webkit-border-raduis: 8px;
+			-moz-border-raduis: 8px;				
+}
+
+
+/* CSS for Low-density screens goes here *
+ * Ex: HTC Evo, HTC Incredible, Nexus One */
+@media only screen and (-webkit-device-pixel-ratio: .75) {
+  
+   
+   
+}
+
+
+/* CSS for Medium-density screens goes here *
+ * Ex: Samsung Ace, Kindle Fire, Macbook Pro *
+ * max-device-width added so you don't target laptops and desktops */
+@media only screen and (-webkit-device-pixel-ratio: 1) and (max-device-width: 768px) {
+  
+   
+   
+}
+
+
+/* CSS for High-density screens goes here *
+ * Ex: Samsung Galaxy SII, HTC Nexus One, HTC Evo 3D */
+@media only screen and (-webkit-device-pixel-ratio: 1.5) { 		
+	#dashboarditems
+    {  
+    	float: left;		
+		margin:0px auto;
+		text-align:center;
+		padding: 0px;		
+		width: 100%;	
+		height: 100%;
+		padding: 0px;	
+    }
+	
+	
+    #dashboarditems ul
+    {		
+       	margin: 2px auto; 
+    	padding: 0px;    	
+    	width:100%;     
+	  	height:100%;    
+    }
+	
+	#dashboarditems li
+    {  
+		display:inline-block;
+    	padding:36px 0px;
+		width: 49.65%;			
+	}
+}
+
+
+/* CSS for Ultra-high-density (Retina) screens goes here *
+ * Ex: Samsung Galaxy SIII, HTC Evo LTE, iPhone 4 */
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+	#dashboarditems
+    {  
+    	float: left;		
+		margin: 2px auto;
+		padding: 0px;		
+		width: 100%;	
+		height: 100%;
+		padding: 0px;	
+    }
+		
+    #dashboarditems ul
+    {		
+       	margin: auto; 
+    	padding: 0px;    	
+    	width:100%;     
+	  	height:100%;    
+    }
+	
+	#dashboarditems li
+    {  
+		display:inline-block;
+    	padding:36px 0px;
+		width: 49.4%;
+		height:89px;
+		margin: 0px;
+        padding-top:25px;	
+	}
+	
+	#membership_id {
+		display: block;
+		margin: 10px auto;
+		width: 90%;	
+		border-raduis: 8px;
+		-webkit-border-raduis: 8px;
+		-moz-border-raduis: 8px;		
+	}		
+}
+
+/* Target Samsung Galaxy SIII more specific */
+@media only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) { 
+	#dashboarditems li
+    {  
+		padding-top:65px;
+		height:123px;		
+	}
+}
+
+/* iPhone 5 or iPod Touch 5th generation styles  */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {  
+  
+  
+
+}
+

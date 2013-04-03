@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ISOS_MOBILE/!svn/ver/339/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui
+END
+LogScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ISOS_MOBILE/!svn/ver/372/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui/LogScreen.java
+END
+WebScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ISOS_MOBILE/!svn/ver/339/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui/WebScreen.java
+END
+BrowserFieldScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ISOS_MOBILE/!svn/ver/372/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui/BrowserFieldScreen.java
+END
+WaitingScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ISOS_MOBILE/!svn/ver/339/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui/WaitingScreen.java
+END
+SplashScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ISOS_MOBILE/!svn/ver/339/ISOS_POC/IMPLEMENTATION/SourceCode/BB/ISOS_New/src/com/infostretch/isosbb/ui/SplashScreen.java
+END
